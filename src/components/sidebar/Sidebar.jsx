@@ -63,10 +63,12 @@ export default function Sidebar() {
                 Permissions
               </li>
             </Link>
-            {/* <li className="sidebarListItem">
-              <BarChart className="sidebarIcon" />
-              Reports
-            </li> */}
+            <Link to="/roles" className="link">
+              <li className="sidebarListItem">
+                <BarChart className="sidebarIcon" />
+                Roles
+              </li>
+            </Link>
           </ul>
         </div>
         {/* <div className="sidebarMenu">

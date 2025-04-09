@@ -10,6 +10,7 @@ import AddUser from "./pages/newUser/AddUser";
 import DeviceList from "./pages/deviceList/DeviceList";
 import AddDevice from "./pages/registerDevice/RegisterDevice";
 import PermissionsPage from "./pages/permissionsPage/PermissionsPage";
+import RolesPage from "./pages/role/RolesPage";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/devices" element={<DeviceList />} /> 
           <Route path="/newDevice" element={<AddDevice />} /> 
           <Route path="/permissions" element={<PermissionsPage />} />
+          <Route path="/roles" element={<RolesPage />} />
         </Routes>
       </div>
     </Router>
