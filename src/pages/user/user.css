@@ -1,0 +1,65 @@
+.card {
+  min-width: 400px;
+  padding: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  margin-bottom: 15px;
+}
+
+.card-chip {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 6px 12px;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+/* .userAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+} */
+.userList {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* adds space between the grid and the button */
+}
+
+.userAddButton {
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}

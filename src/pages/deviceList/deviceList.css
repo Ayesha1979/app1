@@ -1,0 +1,89 @@
+.deviceList {
+    flex: 4;
+  }
+  
+  .deviceListDevice {
+    display: flex;
+    align-items: center;
+  }
+  
+  .deviceListType {
+    display: flex;
+    align-items: center;
+  }
+  
+  .deviceListIp {
+    display: flex;
+    align-items: center;
+  }
+  
+  .deviceListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .deviceListDelete {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Badge Styling */
+  .badge {
+    height: 20px;
+    display: inline-flex; /* Make sure it shrinks to fit text */
+    align-items: center;  /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+    padding: 3px 8px; /* Adjust padding for a compact look */
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: center;
+    white-space: nowrap; /* Prevent text from wrapping */
+    margin-left: 15px;
+  }
+  
+  .badge.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .badge.inactive {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* .deviceAddButton {
+    background-color: #3bb077;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  } */
+
+  /* .addDeviceContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start; 
+  } */
+  
+  .deviceAddButton {
+    background-color: #3bb077;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  
